@@ -1,0 +1,35 @@
+.container {
+}
+.Form {
+  display: flex;
+  flex-direction: column;
+  border: solid yellow 5px;
+  padding: 10px;
+}
+.InputGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.InputGroup label {
+  align-self: flex-start;
+}
+.InputGroup input {
+  flex-grow: 2;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  max-width: 300px;
+}
+.InputGroup img {
+  width: 50px;
+  height: 40px;
+}
+
+@media (max-width: 500px) {
+  .InputGroup {
+    display: flex;
+    flex-direction: column;
+  }
+}
